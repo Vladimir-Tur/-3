@@ -6,7 +6,8 @@ is_student = True
 print(is_student, type(is_student))
 print('Name: ', name)
 print('Age: ', age)
-print('New Age: ', age + 1)
+age = age + 1
+print('New Age: ', age)
 print("Is Student: ", is_student)
 
 
